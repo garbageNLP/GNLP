@@ -7,7 +7,7 @@ These are the current modules that we made into garbage.
 
 ### Fart Stemmer
 
-A stemmer, it's garbage.
+A Porter Stemmer implementation, but it's garbage.
 
 ``` python
 In [1]: from fartstemmer import fart
@@ -15,3 +15,5 @@ In [1]: from fartstemmer import fart
 In [2]: fart('the stemmer is very horrible')  
 Out[2]: u'the stemmer is verifart horriblfart'
 ```
+
+> We thank [fartscroll.js](https://theonion.github.io/fartscroll.js/) for the inspiration.
